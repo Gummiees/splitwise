@@ -1,10 +1,10 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
+    './public/**/*.html',
     "./src/**/*.{html,ts}",
   ],
-  purge: [],
-  darkMode: false, // or 'media' or 'class'
+  darkMode: 'media',
   theme: {
     extend: {
       lineHeight: {
